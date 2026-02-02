@@ -1,0 +1,24 @@
+name = "Electrical Synapse"
+kind = "electrical_synapse"
+version = "0.1.0"
+description = "Electrical synapse model with pre/post inputs."
+supports_start_stop = true
+supports_restart = true
+library = "libelectrical-synapse.so"
+extendable_inputs = false
+auto_extend_inputs = false
+connection_dependent = false
+loads_started = true
+
+[[inputs]]
+name = "pre"
+
+[[inputs]]
+name = "post"
+
+[[outputs]]
+name = "i_syn"
+
+[[variables]]
+name = "g_fast"
+default = 0.208
