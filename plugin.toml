@@ -1,0 +1,5 @@
+name = "Electrical Synapse"
+kind = "electrical_synapse"
+version = "0.1.0"
+description = "Electrical synapse model with C core."
+library = "libelectrical_synapse.so"
