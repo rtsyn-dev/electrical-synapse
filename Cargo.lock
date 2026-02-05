@@ -43,7 +43,6 @@ dependencies = [
 [[package]]
 name = "rtsyn_plugin"
 version = "0.2.0"
-source = "git+https://github.com/rtsyn-dev/rtsyn-plugin#74a059047f647def7b242ce95459ecc17423c331"
 dependencies = [
  "serde",
  "serde_json",
